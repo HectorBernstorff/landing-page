@@ -1,0 +1,128 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.first-section-wrapper {
+    background: #121212;
+    color: white;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.first-section {
+    max-width: 1140px;
+    padding: 40px;
+}
+
+.first-section-top,
+.first-section-bottom {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+    gap: 50px;
+    padding: 40px 1rem;
+}
+
+.first-section-top div,
+.first-section-bottom div {
+    flex: 1;
+}
+
+img {
+    max-width: 550px;
+    height: 100%;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 25px;
+}
+
+.first-section-top :first-child ,
+.first-section-bottom :last-child {
+    display: flex;
+    flex-direction: column;
+
+    font-size: xx-large;
+    font-weight: 700;
+    line-height: 2rem;
+
+    gap: 2rem;
+}
+
+button {
+    font-size: large !important;
+    font-weight: 700;
+
+    border-radius: 5px;
+    border: none;
+
+    padding: 15px 30px;
+
+    background-color: red;
+    color: white;
+
+    cursor: pointer;
+
+    max-width: fit-content;
+
+}
+
+.first-section-description {
+    padding-right: 150px;
+}
+
+h1 {
+    color: darkred;
+}
+span {
+    max-width: fit-content;
+}
+.compra-segura {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-section div {
+    max-width: 1140px;
+    padding: 40px;
+
+
+}
+
+.second-section-card {
+    display: flex;
+    
+    background-color: black;
+    color: white;   
+    border-radius: 15px;
+    margin-bottom: 4rem;
+}
+
+.second-section-card div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.second-section-card img {
+    max-width: 200px;
+}
+
+@media (max-width: 1025px) {
+
+    .first-section-top,
+    .first-section-bottom {
+        flex-direction: column;
+    }
+}
