@@ -1,0 +1,23 @@
+.cards {
+    text-align: center;
+    border-radius: 25px;
+    font-size: 14px;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.inner-card img {
+    max-width: 70px;
+}
+
+.inner-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+h2 {
+    padding: 0 !important;
+}
