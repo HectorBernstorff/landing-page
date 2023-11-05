@@ -53,23 +53,25 @@ function App() {
 
                 <div>
                     <header>
-                        <div className='header-items'>
-                            <span>About</span>
-                            <span>Contact</span>
-                            <span>Comprar</span>
-                        </div>
-
-                        <div>
-                            <span className='header-title'>THAMY CADORE</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns: xlink="http://www.w3.org/1999/xlink" width="500" zoomAndPan="magnify" viewBox="0 0 375 374.999991" height="500" preserveAspectRatio="xMidYMid meet" version="1.0"><path fill="#2d9df9" d="M 356.210938 212.023438 C 375.058594 201.132812 375.058594 173.90625 356.210938 163.03125 C 342.671875 155.214844 338.042969 137.917969 345.855469 124.394531 C 356.734375 105.53125 343.128906 81.960938 321.359375 81.960938 C 305.730469 81.960938 293.066406 69.296875 293.066406 53.679688 C 293.066406 31.898438 269.496094 18.292969 250.644531 29.183594 C 237.121094 36.984375 219.808594 32.355469 212.007812 18.828125 C 201.117188 -0.0351562 173.90625 -0.0351562 163.015625 18.828125 C 155.203125 32.355469 137.90625 36.984375 124.378906 29.183594 C 105.519531 18.292969 81.949219 31.898438 81.949219 53.679688 C 81.949219 69.296875 69.28125 81.960938 53.667969 81.960938 C 31.886719 81.960938 18.28125 105.53125 29.171875 124.394531 C 36.984375 137.917969 32.339844 155.214844 18.816406 163.03125 C -0.0351562 173.90625 -0.0351562 201.132812 18.816406 212.023438 C 32.339844 219.824219 36.984375 237.121094 29.171875 250.660156 C 18.28125 269.507812 31.898438 293.078125 53.667969 293.078125 C 69.28125 293.078125 81.949219 305.742188 81.949219 321.371094 C 81.949219 343.140625 105.519531 356.746094 124.378906 345.867188 C 137.90625 338.054688 155.203125 342.683594 163.015625 356.210938 C 173.90625 375.074219 201.117188 375.074219 212.007812 356.210938 C 219.808594 342.683594 237.121094 338.054688 250.644531 345.867188 C 269.496094 356.746094 293.066406 343.140625 293.066406 321.371094 C 293.066406 305.742188 305.730469 293.078125 321.359375 293.078125 C 343.128906 293.078125 356.734375 269.507812 345.855469 250.660156 C 338.042969 237.121094 342.671875 219.824219 356.210938 212.023438 " fill-opacity="1" fill-rule="nonzero" /><path fill="#ffffff" d="M 288.226562 140.097656 L 261.71875 113.605469 L 167.113281 208.214844 L 121.300781 162.402344 L 94.796875 188.910156 L 140.605469 234.707031 L 140.371094 234.941406 L 166.878906 261.433594 L 167.097656 261.210938 L 167.332031 261.445312 L 193.839844 234.941406 L 193.617188 234.707031 L 288.226562 140.097656 " fill-opacity="1" fill-rule="nonzero" /></svg>
+                        <div className='inner-header'>
+                            <div className='header-items'>
+                                <span>About</span>
+                                <span>Contact</span>
+                                <span>Comprar</span>
+                            </div>
+                            <div>
+                                <span className='header-title'>THAMY CADORE</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns: xlink="http://www.w3.org/1999/xlink" width="500" zoomAndPan="magnify" viewBox="0 0 375 374.999991" height="500" preserveAspectRatio="xMidYMid meet" version="1.0"><path fill="#2d9df9" d="M 356.210938 212.023438 C 375.058594 201.132812 375.058594 173.90625 356.210938 163.03125 C 342.671875 155.214844 338.042969 137.917969 345.855469 124.394531 C 356.734375 105.53125 343.128906 81.960938 321.359375 81.960938 C 305.730469 81.960938 293.066406 69.296875 293.066406 53.679688 C 293.066406 31.898438 269.496094 18.292969 250.644531 29.183594 C 237.121094 36.984375 219.808594 32.355469 212.007812 18.828125 C 201.117188 -0.0351562 173.90625 -0.0351562 163.015625 18.828125 C 155.203125 32.355469 137.90625 36.984375 124.378906 29.183594 C 105.519531 18.292969 81.949219 31.898438 81.949219 53.679688 C 81.949219 69.296875 69.28125 81.960938 53.667969 81.960938 C 31.886719 81.960938 18.28125 105.53125 29.171875 124.394531 C 36.984375 137.917969 32.339844 155.214844 18.816406 163.03125 C -0.0351562 173.90625 -0.0351562 201.132812 18.816406 212.023438 C 32.339844 219.824219 36.984375 237.121094 29.171875 250.660156 C 18.28125 269.507812 31.898438 293.078125 53.667969 293.078125 C 69.28125 293.078125 81.949219 305.742188 81.949219 321.371094 C 81.949219 343.140625 105.519531 356.746094 124.378906 345.867188 C 137.90625 338.054688 155.203125 342.683594 163.015625 356.210938 C 173.90625 375.074219 201.117188 375.074219 212.007812 356.210938 C 219.808594 342.683594 237.121094 338.054688 250.644531 345.867188 C 269.496094 356.746094 293.066406 343.140625 293.066406 321.371094 C 293.066406 305.742188 305.730469 293.078125 321.359375 293.078125 C 343.128906 293.078125 356.734375 269.507812 345.855469 250.660156 C 338.042969 237.121094 342.671875 219.824219 356.210938 212.023438 " fill-opacity="1" fill-rule="nonzero" /><path fill="#ffffff" d="M 288.226562 140.097656 L 261.71875 113.605469 L 167.113281 208.214844 L 121.300781 162.402344 L 94.796875 188.910156 L 140.605469 234.707031 L 140.371094 234.941406 L 166.878906 261.433594 L 167.097656 261.210938 L 167.332031 261.445312 L 193.839844 234.941406 L 193.617188 234.707031 L 288.226562 140.097656 " fill-opacity="1" fill-rule="nonzero" /></svg>
+                            </div>
                         </div>
 
                     </header>
+
                     <div className='foto-banner'>
                         <img src={fotoThamy} alt="" />
                         <img className='small-logo' src={smallLogo} alt="" />
                     </div>
-                    <div className='first-section'>
+                    <div className='first-section' id='first-section-mobile'>
                         <div>
                             <span className='first-section-description'>
                                 <p>É hora de transformar seu sonho de <span>viver no Canadá</span> em um plano concreto, me deixa te ajudar!</p>
@@ -84,41 +86,92 @@ function App() {
                             </span>
                         </div>
                     </div>
-                </div>
 
-                <div className='forth-section'>
-                    <div>
+                    <div className='first-section' id='first-section-full'>
                         <div>
-                            <h2>Eu já fui como você!</h2>
-                            <p>Você está prestes a embarcar na jornada da sua mudança para o Canadá, e estou aqui para te guiar com base na minha própria experiência e compartilhar dicas valiosas para que você não repita os mesmos erros.</p>
-                            <a href="#checkout"><button>Quero ser mentorado</button></a>
+                            <span className='first-section-description'>
+                                <div className='logo-wrapper'>
+                                    <img className='small-logo-full' src={smallLogo} alt="" />
+                                </div>
+
+                                <p>É hora de transformar seu sonho de <span>viver no Canadá</span> em um plano concreto, me deixa te ajudar!</p>
+                            </span>
+                            <div>
+                                <span>
+                                    <a href="#checkout"><button>Garanta sua vaga</button></a>
+                                </span>
+                            </div>
                         </div>
-                        <img src={jaFui} alt="" />
+                        <div className='picture'>
+                            <iframe src="https://www.youtube.com/embed/qzmjO41PDFI?si=Gx2Tz1pQLcn7pr-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
                     </div>
 
                 </div>
 
-                <div className='forth-section-copy'>
-                    <div>
-                        <img src={comprarAgora} alt="" />
-                        <div>
-                            <h2>Por que garantir sua vaga agora é essencial para sua Jornada no Canadá?
-                            </h2>
-                            <p>Essa mentoria é o caminho completo de como dar start no seu Plano Canadá! Perfeito para todas as etapas da sua jornada, desde iniciantes até aqueles que desejam aperfeiçoar seu planejamento.
-                            </p>
-                            <p>
-                                Você terá acesso imediato a materiais exclusivos! As vagas na mentoria são limitadas, não perca mais tempo e comece a trilhar seu caminho para o Canadá hoje mesmo.
-                            </p>
-                            <a href="#checkout"><button>Garantir minha vaga</button></a>
-                        </div>
+                <div className='second-section'>
+                    <div className='div-img'>
+                        <img src={quemSou} alt="" />
                     </div>
+                    <div className='second-section-description'>
+                        <h1>Quem sou eu?</h1>
+                        <span className='first-section-description'>
+                            <p>Olá! Sou Thamy Cadore, e minha paixão é compartilhar minha jornada de vida no Canadá com você.
+                            </p>
 
+                            <p>Com três anos de experiência no país e a vivência em três cidades diferentes, passei por desafios, perrengues, aprendizados e conquistas que moldaram minha trajetória. Agora, estou aqui para ajudar você a tornar seu sonho de viver no Canadá uma realidade.
+                            </p>
+
+                            <p>Minha missão é fornecer orientação personalizada e insights valiosos, além de recursos exclusivos, para que sua transição para o Canadá seja suave e bem-sucedida. Juntos, vamos planejar sua mudança, superar desafios e tornar seu sonho canadense uma conquista.
+                            </p>
+
+                            <p>Estou animada para ser parte da sua jornada e ajudar você a trilhar o caminho para o Canadá. Vamos transformar seu sonho em realidade!</p>
+                        </span>
+                        <a href="#checkout"><button>Compre</button></a>
+                    </div>
                 </div>
-
-
 
 
             </div>
+
+            <div className='forth-section'>
+                <div className='forth-section-inner'>
+                    <div>
+                        <h2>Eu já fui como você!</h2>
+                        <p>Você está prestes a embarcar na jornada da sua mudança para o Canadá, e <span className='bold'>estou aqui para te guiar</span> com base na minha própria experiência e compartilhar dicas valiosas para que você não repita os mesmos erros.</p>
+                        <a href="#checkout"><button>Quero ser mentorado</button></a>
+                    </div>
+                    <div><img src={jaFui} alt="" /></div>
+                </div>
+
+            </div>
+
+            <div className='forth-section-copy'>
+                <div className='forth-section-inner-copy'>
+                    <div><img src={comprarAgora} alt="" /></div>
+                    <div>
+                        <h2>Por que garantir sua vaga agora é essencial para sua Jornada no Canadá?
+                        </h2>
+                        <p>Essa mentoria é o caminho completo de como dar <span className='bold'>start no seu Plano Canadá!</span> Perfeito para todas as etapas da sua jornada, desde iniciantes até aqueles que desejam aperfeiçoar seu planejamento e <span className='bold'>as vagas na mentoria são limitadas</span>, não perca mais tempo e comece a trilhar seu caminho para o Canadá hoje mesmo.
+                        </p>
+                        <a href="#checkout"><button>Garantir minha vaga</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <div>
+
+                </div>
+
+            </div>
+
+
+
 
             <div className='third-section'>
 
@@ -127,54 +180,31 @@ function App() {
                 </div>
 
                 <div className='cards-wrapper'>
-
-
                     <Cards />
                 </div>
 
             </div>
 
+            <hr />
 
-            <div className='second-section'>
-                <div className='div-img'>
-                    <img src={logo} alt="" />
+            <div className='bonus'>
+
+                <div className='inner-bonus'>
+                    <h2>SÃO MAIS DE R$1.900 EM BENEFÍCIOS!
+                    </h2>
+
+                    <div>
+
+                        <p>Você vai <span className='bold-bonus underline'>ganhar mais de R$1.740 em descontos</span> com meus grandes parceiros nos serviços de aplicação de vistos, consultoria educacional, imigração, matrícula em college, internet de celular e assessoria na hora de alugar imóvel no Canadá!
+
+                        </p>
+                        <p>Além disso, você terá <span className='bold-bonus'>acesso imediato a materiais exclusivos</span>, as ferramentas corretas para alcançar seus objetivos! Como o calendário de planejamento personalizado, todo planejamento financeiro e <span className='bold-bonus-black'>TUDO o que você precisa saber</span> antes de embarcar desde documentos, remédios a preparação da mala. Apenas esses materiais são mais de R$200 que você vai ganhar como <span className='bold-bonus'>bônus da mentoria.</span>
+                        </p>
+
+                    </div>
                 </div>
-                <div className='second-section-description'>
-                    <h1>Quem sou eu?</h1>
-                    <span className='first-section-description'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam libero suscipit mollitia dolor officia sed quam maiores laboriosam aspernatur labore possimus beatae, asperiores quo consequatur itaque nobis obcaecati vero et? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur facere est aspernatur maiores nihil voluptates hic rerum eius vero alias quae accusantium consequuntur labore corporis, id atque magnam maxime laudantium! lore
-                    </span>
-                    <a href="#checkout"><button>Compre</button></a>
-                </div>
+
             </div>
-
-            <div className='second-section-mobile'>
-                <div className='second-section-description'>
-                    <h1>Quem sou eu?</h1>
-                    <span className='first-section-description'>
-
-                        <p>Olá! Sou Thamy Cadore, e minha paixão é compartilhar minha jornada de vida no Canadá com você.
-                        </p>
-
-                        <p>Com três anos de experiência no país e a vivência em três cidades diferentes, passei por desafios, perrengues, aprendizados e conquistas que moldaram minha trajetória. Agora, estou aqui para ajudar você a tornar seu sonho de viver no Canadá uma realidade.
-                        </p>
-
-                        <p>Minha missão é fornecer orientação personalizada e insights valiosos, além de recursos exclusivos, para que sua transição para o Canadá seja suave e bem-sucedida. Juntos, vamos planejar sua mudança, superar desafios e tornar seu sonho canadense uma conquista.
-                        </p>
-
-                        <p>Estou animada para ser parte da sua jornada e ajudar você a trilhar o caminho para o Canadá. Vamos transformar seu sonho em realidade!</p>
-                    </span>
-
-                </div>
-
-                <div className='div-img'>
-                    <img src={quemSou} alt="" />
-                </div>
-
-                <a href="#checkout" className='second-section-mobile-button'><button >QUERO GARANTIR MINHA VAGA</button></a>
-            </div>
-
-
 
             <div className='pattern-bg'>
                 <div className='fifth-section'>
@@ -205,14 +235,36 @@ function App() {
                 </div>
             </div>
 
+            <hr />
+
+            <div className='second-section-mobile'>
+                <div className='second-section-mobile-inner'>
+                    <div className='second-section-description'>
+                        <h1>Quem sou eu?</h1>
+                        <span className='first-section-description'>
+                            <p>Olá! Sou Thamy Cadore, e minha paixão é compartilhar minha jornada de vida no Canadá com você.
+                            </p>
+                            <p>Com três anos de experiência no país e a vivência em três cidades diferentes, passei por desafios, perrengues, aprendizados e conquistas que moldaram minha trajetória. Agora, estou aqui para ajudar você a tornar seu sonho de viver no Canadá uma realidade.
+                            </p>
+                            <p>Minha missão é fornecer orientação personalizada e insights valiosos, além de recursos exclusivos, para que sua transição para o Canadá seja suave e bem-sucedida. Juntos, vamos planejar sua mudança, superar desafios e tornar seu sonho canadense uma conquista.
+                            </p>
+                            <p>Estou animada para ser parte da sua jornada e ajudar você a trilhar o caminho para o Canadá. Vamos transformar seu sonho em realidade!</p>
+                        </span>
+                    </div>
+                    <div className='div-img'>
+                        <img src={quemSou} alt="" />
+                    </div>
+                    <a href="#checkout" className='second-section-mobile-button'><button >QUERO GARANTIR MINHA VAGA</button></a>
+                </div>
+            </div>
 
             <section className='valor-section' id='checkout'>
                 <div className='valor-description'>
                     <h1>
-                    Valor do investimento para dar o primeiro passo: 
+                        Valor do investimento para dar o primeiro passo:
 
                     </h1>
-                    
+
 
                     <div className='price'>
                         <div className='por-apenas'>
@@ -239,7 +291,7 @@ function App() {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
-                            <span>Garantioa incondicional</span>
+                            <span>Garantia de 7 dias</span>
                         </div>
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -254,7 +306,7 @@ function App() {
             </section>
 
             <footer>
-                <span onClick={openTermos}>Terms of use - Provacy poilicy</span>
+                <span onClick={openTermos}><span className='underline'>Termos de Uso</span> - Política de Privacidade</span>
 
                 <span>© 2023 Thamy Cadore</span>
             </footer>

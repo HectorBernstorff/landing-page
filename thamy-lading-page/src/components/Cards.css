@@ -1,8 +1,7 @@
 .cards {
     text-align: center;
     border-radius: 25px;
-    font-size: 14px;
-    padding: 1rem;
+    padding: 2rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -20,4 +19,9 @@
 
 h2 {
     padding: 0 !important;
+    font-size: 18px !important;
+}
+
+span {
+    font-size: 16px !important;
 }

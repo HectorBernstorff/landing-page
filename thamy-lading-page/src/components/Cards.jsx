@@ -16,8 +16,10 @@ function Cards({ img, title, content }) {
                         <img src={encontro} alt="" />
                         <h2>ENCONTRO INDIVIDUAL</h2>
                     </div>
-                    <span>Serão 60 minutos de mentoria, onde você receberá orientação personalizada com base em minha experiência e insights valiosos.
-                    </span>
+                    <div>
+                        <span>Serão 60 minutos de mentoria, onde você receberá orientação personalizada com base em minha experiência e insights valiosos.
+                        </span>
+                    </div>
                 </div>
             </div>
 
@@ -38,7 +40,7 @@ function Cards({ img, title, content }) {
                         <img src={materiais} alt="" />
                         <h2>MATERIAIS EXCLUSIVOS</h2>
                     </div>
-                    <span>Você terá acesso a materiais exclusivos, um calendário de planejamento personalizado, planejamento financeiro e TUDO que você precisa antes de embarcar, documentos, remédios e até o que levar na mala.
+                    <span>Acesso imediato a materiais que te dirão o caminho a seguir com o calendário de planejamento, descobrirá quanto irá gastar no Plano Canadá com planner financeiro e TUDO que você precisa na hora do embarque.
                     </span>
                 </div>
             </div>
