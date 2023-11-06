@@ -247,7 +247,7 @@ function App() {
 
             <div>
                 <Termos termos={termos} closeTermos={closeTermos} />
-                {/* <button onClick={closeTermos}>close</button> */}
+
             </div>
 
 
