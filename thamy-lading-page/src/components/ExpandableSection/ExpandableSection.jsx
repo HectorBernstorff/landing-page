@@ -6,6 +6,7 @@ function ExpandableSection({ title, content }) {
     const [expanded, setExpanded] = useState(false);
 
     return (
+        <>
         <div className='faq-wrapper' onClick={() => setExpanded(!expanded)}>
             <div  className='faq-title'>
                 <h3>{title}</h3>
@@ -36,6 +37,8 @@ function ExpandableSection({ title, content }) {
 
             </div>
         </div>
+        <hr />
+        </>
     );
 }
 
