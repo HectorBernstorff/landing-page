@@ -57,7 +57,7 @@ function App() {
                             <a href="#checkout" className='button-top'><button>Garanta sua vaga</button></a>
                         </div>
                         <div className='picture'>
-                            <iframe src="https://www.youtube.com/embed/qzmjO41PDFI?si=Gx2Tz1pQLcn7pr-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/kb01rv1PZh0" title="Mentoria Thamy Cadore" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                         <div className='button-bottom'>
 
