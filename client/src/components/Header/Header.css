@@ -1,0 +1,65 @@
+/* HEADER ---------------------------------------- */
+header {
+
+    width: 100%;
+
+    padding: .5rem 40px;
+
+    box-sizing: border-box;
+    margin: auto;
+
+    background: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.inner-header {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+
+header img {
+    width: 32px;
+    height: 32px;
+    filter: opacity(0.1) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white) drop-shadow(0 0 0 white);
+}
+
+.header-items span {
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    font-size: 14px;
+
+    cursor: pointer;
+    transition: .1s;
+}
+
+.header-items span:hover {
+    background-color: #F7F7F7;
+}
+
+header a {
+    padding-left: .5rem;
+}
+
+.header-title {
+    font-weight: 900;
+    font-size: 14px;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header svg {
+    height: 16px;
+    width: 16px;
+
+    padding-left: .25rem;
+}

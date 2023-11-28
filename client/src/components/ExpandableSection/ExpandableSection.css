@@ -1,0 +1,60 @@
+.expandable {
+    min-height: 0;
+
+
+    transition: 1s;
+}
+
+.expandable-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: grid-template-rows  200ms;
+
+    line-height: 1.75rem;
+}
+
+.expandable-wrapper.visible {
+    grid-template-rows: 1fr;
+}
+
+
+svg {
+    width: 20px;
+
+    transition: .2s;
+}
+
+.faq-title {
+    display: flex;
+    justify-content: space-between;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+}
+
+.faq-wrapper {
+    
+
+
+    padding: 1.25rem 1rem;
+}
+
+.faq-wrapper:hover {
+    background-color: #F7F7F7;
+    cursor: pointer;
+}
+
+.faq-title h3 {
+    font-weight: 500;
+}
+
+
+#expandabl {
+    font-size: 14px;
+    padding-top: .5rem;
+
+    color: #6F6F6F;
+}
